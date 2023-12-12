@@ -1,0 +1,43 @@
+
+#cardapio-titulo {
+    color: #000000;
+}
+u{
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 62px;
+    padding: 40px 0px;
+    font-weight: 400;
+    text-decoration-color: #640a07;
+    text-decoration-skip-ink: none;
+}
+.itens {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: initial;
+    gap: 20px;
+}
+
+.titulo-pagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+main{
+    background-color: #f7f7f7;
+}
+
+.categoria{
+    margin-left: 10vw;
+    display: flex;
+    gap: 15px;
+    padding-bottom: 15vh;
+}
+
+.titulo-categoria {
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+}

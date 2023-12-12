@@ -1,0 +1,31 @@
+.faca-pedido-home {
+    background-image: url(../assets/pedido-bg.png);
+    height: 367px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faca-pedido-home-texto-h2 {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+}
+
+.faca-pedido-home-texto {
+
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    margin-left: 60px;
+}
+.botao-ver-pedido:hover {
+    cursor: pointer;
+}

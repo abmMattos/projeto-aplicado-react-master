@@ -1,0 +1,30 @@
+.diferencial-home-tipos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -100px;
+    width: 380px;
+    height: 320px;
+    flex-shrink: 0;
+    gap: 50px;
+    background: linear-gradient(0deg, rgba(32, 3, 2, 0.17) -4.82%, #200302 -4.81%, #500806 99.99%, #500806 100%);
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FFB000;
+}
+
+.diferencial-home-img {
+    margin-top: 10px;
+    width: 64px;
+    height: 64px;
+}
+
+.diferencial-home-h2 {
+    color: white
+}
+
+.diferencial-home-texto {
+    color: #FFB000;
+    padding: 10px;
+    text-align: center;
+}

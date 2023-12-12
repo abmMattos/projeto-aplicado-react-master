@@ -1,0 +1,57 @@
+.sobrenos {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 400px;
+}
+.sobrenos-principal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sobrenos-titulo {
+    margin-left: 60px;
+    margin-right: 40px;
+    font-family: Jim Nightshade;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sobrenos-texto {
+    color: #000;
+    font-size: 24px;
+    margin-left: 60px;
+}
+
+.botao-ver {
+    display: inline-block;
+    background: #FFB000;
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
+}
+
+.sobrenos-img {
+    display: flex;
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 45px;
+    gap: 40px;
+
+}
+.titulo-sobrenos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
