@@ -1,10 +1,12 @@
 import EspecialidadesCard from "./EspecialidadesCard";
 import img1 from "../assets/img1-especialidade.png";
-import FacaSeuPedido from "./FacaSeuPedido";
+import { Link } from 'react-router-dom';
 import linhaTituloEsquerda from "../assets/linhas-titulo-esquerda.svg";
 import linhaTituloDireita from "../assets/linhas-titulo-direita.svg";
 import img2 from "../assets/img2-especialidade.png";
 import img3 from "../assets/img3-especialidade.png";
+import img5 from "../assets/img5-especialidade.png";
+import img6 from "../assets/img6-especialidade.png";
 import "./Especialidades.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -31,6 +33,16 @@ function Especialidades() {
       texto: "A partir de R$26,90",
       image: img3,
     },
+    {
+      titulo: "Marmitas",
+      texto: "A partir de R$19,90",
+      image: img5,
+    },
+    {
+      titulo: "Caseiros Executivos",
+      texto: "A partir de R$21,90",
+      image: img6,
+    },
     
   ];
 
@@ -54,7 +66,7 @@ function Especialidades() {
           </div>
         </div>
 
-        <Swiper
+        <Swiper id="carousel"
           spaceBetween={20}
           slidesPerView={2}
           navigation={true}
@@ -72,7 +84,7 @@ function Especialidades() {
           ))}
         </Swiper>
 
-        <FacaSeuPedido />
+        <div><Link to="/cardapio" className="botao-ver">CARDÁPIO </Link></div>
       </div>
     </section>
   );

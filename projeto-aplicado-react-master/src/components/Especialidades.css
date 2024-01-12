@@ -1,0 +1,92 @@
+.especialidade-h2-titulo {
+  margin-left: 60px;
+  margin-right: 40px;
+  font-family: Jim Nightshade;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.especialidade-organizacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.especialidades-bg {
+  background: #f2f2f2;
+  height: 657px;
+  display: grid;
+}
+
+.especialidades-titulo {
+  font-family: Jim Nightshade;
+  font-size: 64px;
+  font-weight: 100;
+}
+
+.titulo-especialidade-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.especialidades-cardapio {
+  display: flex;
+  gap: 20px;
+}
+
+.especialidades-cardapio-bg {
+  background: #fff;
+  border-radius: 25px;
+  padding: 15px 15px 30px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.especialidades-subtitulo {
+  color: #000;
+  font-family: Jim Nightshade;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.especialidades-texto {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #640A07;
+}
+
+.botao-especialidade {
+  justify-content: center;
+}
+
+.titulo-especialidades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+  font-family: "Jim Nightshade", cursive;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}

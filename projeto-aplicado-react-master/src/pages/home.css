@@ -1,0 +1,86 @@
+
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+}
+
+button {
+    margin: none;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.h1-cor {
+    color: #FFB000;
+    font-size: 120px;
+}
+
+.titulo-amarelo {
+    color: #FFB000;
+}
+
+.botao-ver-pedido {
+    display: inline-block;
+    background: #FFB000;
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
+}
+
+
+
+
+
+.funcionamento-bg {
+    background-image: url(../assets/funcionamento-bg.png);
+    height: 567px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.funcionamento-titulo {
+    display: flex;
+    align-items: baseline;
+    color: #FFF;
+    font-family: Jim Nightshade;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.funcionamento-home-texto {
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    line-height: 15px;
+
+}
+.funcionamento {
+    display: grid;
+    text-align: center;
+}
+
+.linhas-titulo-funcionamento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.funcionamento-align {
+    display: grid;
+}
+
+.ultimo-p {
+    margin-bottom: 100px;
+}

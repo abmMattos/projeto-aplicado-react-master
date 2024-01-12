@@ -73,5 +73,80 @@ h1 {
     font-family: 'Jim Nightshade';
 }
 
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+}
 
+@media (max-width: 500px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header-titulo{
+    display: none;  
+    justify-content: center;
+    }
+    .diferencial-home-tipos,
+    .sobrenos-img,
+    .titulo-sobrenos,
+    .sobrenos-texto,
+    .sobrenos,
+    .linhas-titulo
+    {
+      display: none;
+    }
 
+    .funcionamento-bg img{
+        display: none;
+    }
+    .especialidades-titulo
+    {
+        font-size: 40px;
+    }
+    .faca-pedido-home {
+        margin-top: 40px;
+    }
+    
+    .header-menu {
+        
+        position: absolute;
+        top: 18vh;
+        right: 0;
+        width: 100vw;
+        background: #290403;
+        flex-direction: column;
+        justify-content: space-around;
+        transform: translateX(100%);
+        padding-bottom: 20px;
+    }
+    .header-menu ul {
+        border-style: solid;
+        border-width: 2px;
+        border-color: #fff;
+        
+    }
+    .header-menu li {
+        margin-left: 0;
+    }
+    .mobile-menu {
+        padding-top: 50px;
+        display: block;
+    }
+    
+    .header-menu.open {
+        transform: translateX(0);
+    }
+    .header {
+        height: 600px;
+    }
+    
+  }
+  
+
+  
