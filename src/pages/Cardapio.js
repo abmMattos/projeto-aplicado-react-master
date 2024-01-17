@@ -1,6 +1,4 @@
 import Header from "../components/Header/Header";
-import linhaTituloEsquerda from '../assets/linhas-titulo-esquerda.svg';
-import linhaTituloDireita from '../assets/linhas-titulo-direita.svg';
 import './main-cardapio.css';
 import TiposCard from "../components/TiposCard";
 import img from '../assets/caseiro.svg';

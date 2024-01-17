@@ -20,17 +20,17 @@ function SobreNos() {
                 <SobreNosHome titulo="Sobre" tituloAmarelo="Nós" texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quidem neque" img1={img1} img2={img2}/>
                 <section id="nossa-missao">
                     <div id="titulo-nossa-missao">
-                        <div >
+                        <div className='linhas-titulo'>
                         <img src={linhaTituloEsquerda} alt="" />
                         </div>
                         <div>
                             <h2>Nossa <span>Missão</span></h2>
                         </div>
-                        <div >
+                        <div className='linhas-titulo'>
                         <img src={linhaTituloDireita} alt="" />
                         </div>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                 </section>
                 <Galeria />
             </main>
