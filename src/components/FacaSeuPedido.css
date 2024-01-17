@@ -1,16 +1,16 @@
 .faca-pedido-home {
     background-image: url(../assets/pedido-bg.png);
-    height: 367px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    padding-bottom: 40px;
 }
 
 .faca-pedido-home-texto-h2 {
     text-align: center;
-    padding-top: 80px;
+    padding-top: 40px;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -28,4 +28,10 @@
 }
 .botao-ver-pedido:hover {
     cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .faca-pedido-home-texto {
+        margin: 15px;
+    }
 }

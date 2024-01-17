@@ -68,7 +68,7 @@ function Especialidades() {
 
         <Swiper id="carousel"
           spaceBetween={20}
-          slidesPerView={2}
+          slidesPerView={1}
           navigation={true}
           modules={[Navigation]}
           

@@ -2,14 +2,12 @@
     display: flex;
     align-items: baseline;
     justify-content: center;
-    margin-left: 60px;
-    margin-right: 40px;
     font-family: Jim Nightshade;
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 5vh;
+    margin-top: 3vh;
 }
 
 .galeria {
@@ -56,3 +54,28 @@
     width: 12vw;
     gap: 15px;
 }
+
+@media (max-width: 500px) {
+
+    .galeria-titulo h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .galeria-titulo {
+        gap: 20px;
+    }
+    .mobile-hidden {
+        display: none;
+    }
+    .galeria-link {
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        justify-content: center;
+        width: 200px;
+        gap: 15px;
+    }
+} 

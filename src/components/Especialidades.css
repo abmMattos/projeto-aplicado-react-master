@@ -87,10 +87,16 @@
 }
 
 .swiper {
-  width: 600px;
+  width: 500px;
   height: 300px;
 }
 
 @media (max-width: 500px) {
-  
+  .swiper {
+    width: 370px;
+    height: 300px;
+  }
+  #carousel {
+    padding: 0px 10px;
+  }
 }

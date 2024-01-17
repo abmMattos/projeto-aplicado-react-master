@@ -67,3 +67,8 @@ footer {
     font-size: 0.8em;
     opacity: 70%;
 }
+@media (max-width: 500px) {
+    #conteudo-footer {
+        gap: 30px
+    }
+}

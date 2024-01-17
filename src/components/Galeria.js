@@ -14,13 +14,13 @@ function Galeria() {
         <section className="galeria">
 
             <div className="galeria-titulo">
-                <div className="linhas-titulo">
+                <div className="linhas">
                     <img src={linhaTituloEsquerda} alt="" />
                 </div>
                 <div>
-                    <h2 className="especialidade-h2-titulo">Galeria</h2>
+                    <h2 className="galeria-titulo">Galeria</h2>
                 </div>
-                <div className="linhas-titulo">
+                <div className="linhas">
                     <img src={linhaTituloDireita} alt="" />
                 </div>
             </div>
@@ -29,9 +29,9 @@ function Galeria() {
                 <div><img src={img1} alt="comida 1" /></div>
                 <div><img src={img2} alt="comida 2" /></div>
                 <div><img src={img3} alt="comida 5" /></div>
-                <div><img src={img1} alt="comida 1" /></div>
-                <div><img src={img2} alt="comida 2" /></div>
-                <div><img src={img3} alt="comida 5" /></div>
+                <div className="mobile-hidden"><img src={img1} alt="comida 1" /></div>
+                <div className="mobile-hidden"><img src={img2} alt="comida 2" /></div>
+                <div className="mobile-hidden"><img src={img3} alt="comida 5" /></div>
                 
             </div>
             <div className="galeria-link">

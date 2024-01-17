@@ -1,45 +1,5 @@
-
-
-a {
-    text-decoration: none;
-    color: white;
-
-}
-
-h1 {
-    color: white;
-    font-size: 80px;
-}
-
-button {
-    margin: none;
-    padding: 0px;
-    text-decoration: none;
-}
-
-.h1-cor {
-    color: #FFB000;
-    font-size: 120px;
-}
-
-.titulo-amarelo {
-    color: #FFB000;
-}
-
-.botao-ver-pedido {
-    display: inline-block;
-    background: #FFB000;
-    border-radius: 4px;
-    padding: 10px 20px 10px 20px;
-}
-
-
-
-
-
 .funcionamento-bg {
     background-image: url(../assets/funcionamento-bg.png);
-    height: 567px;
     display: flex;
     justify-items: center;
     justify-content: center;
@@ -54,27 +14,36 @@ button {
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
     text-align: center;
+    padding: 30px 0px;
+    gap: 0px 25px;
 }
 
-.funcionamento-home-texto {
-    text-align: center;
-    font-size: 16px;
-    color: #fff;
-    line-height: 15px;
 
-}
 .funcionamento {
     display: grid;
     text-align: center;
 }
 
-.linhas-titulo-funcionamento{
+.funcionamento-info{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    line-height: 15px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.bg-info {
+    background-color: #ffffffa6;
+}
+
+.bg-info div {
+    margin: 40px;
+    padding: 0px 10px;
 }
 
 .funcionamento-align {
@@ -83,4 +52,10 @@ button {
 
 .ultimo-p {
     margin-bottom: 100px;
+}
+
+@media (max-width: 500px) {
+    .funcionamento-titulo {
+        font-size: 40px;
+    }
 }

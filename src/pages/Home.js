@@ -16,7 +16,7 @@ function Home() {
             <main>
                 <Diferencial />
                 <SobreNosHome pagina="home" titulo="Um pouco" tituloAmarelo="Sobre Nós" texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quidem neque" botao="VER MAIS" img1={img1} img2={img2} />
-                <section>
+                <section id='faca-pedido'>
                     <div className="faca-pedido-home">
 
                         <h2 className="faca-pedido-home-texto-h2"> Faça sua refeição com uma marmita <span

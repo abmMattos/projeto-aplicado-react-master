@@ -33,54 +33,6 @@ button {
     padding: 10px 20px 10px 20px;
 }
 
+#faca-pedido {
 
-
-
-
-.funcionamento-bg {
-    background-image: url(../assets/funcionamento-bg.png);
-    height: 567px;
-    display: flex;
-    justify-items: center;
-    justify-content: center;
-    max-width: 100%;
-}
-
-.funcionamento-titulo {
-    display: flex;
-    align-items: baseline;
-    color: #FFF;
-    font-family: Jim Nightshade;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
-}
-
-.funcionamento-home-texto {
-    text-align: center;
-    font-size: 16px;
-    color: #fff;
-    line-height: 15px;
-
-}
-.funcionamento {
-    display: grid;
-    text-align: center;
-}
-
-.linhas-titulo-funcionamento{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
-.funcionamento-align {
-    display: grid;
-}
-
-.ultimo-p {
-    margin-bottom: 100px;
 }

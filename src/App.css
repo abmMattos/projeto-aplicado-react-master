@@ -26,7 +26,15 @@ h1, h2, span {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+@media (max-width: 500px){
+  body {
+    overflow-x: hidden;
+}
+.linhas-titulo
+    {
+      display: none;
+    }
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
