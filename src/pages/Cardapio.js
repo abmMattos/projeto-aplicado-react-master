@@ -51,20 +51,9 @@ function Cardapio() {
     return (
         <div>
             <Header titulo="" tituloAmarelo="CARDÁPIO" />
-            <main>
+            <main id="cardapio-main">
                 <section className="diferencial-home">
                     <TiposCard img={img} titulo="Comida Caseira" texto="Na Comidaria Express, desfrute da autenticidade e sabor excepcional da nossa comida caseira, preparada com ingredientes frescos e receitas tradicionais. Descubra o prazer de uma experiência culinária única e reconfortante conosco." />
-                </section>
-                <section className="titulo-pagina">
-                    <div className="linhas-titulo">
-                        <img src={linhaTituloEsquerda} alt="" />
-                    </div>
-                    <div>
-                        <h1 id="cardapio-titulo">Cardápio</h1>
-                    </div>
-                    <div className="linhas-titulo">
-                        <img src={linhaTituloDireita} alt="" />
-                    </div>
                 </section>
                 <div className="titulo-categoria">
                     <h2><u>Marmitas</u></h2>
@@ -127,7 +116,7 @@ function Cardapio() {
                     <CardapioCard img={Yakisoba} titulo="YAKISOBA DE TOFU" descricao="Yakisoba Vegano" preco="24,90" />
                 </section>
                 <div className="titulo-categoria">
-                    <h2><u>Parmegiana E Estrogonofe</u></h2>
+                    <h2><u>Parmegiana & Estrogonofe</u></h2>
                 </div>
                 <section className="categoria">
                         <CardapioCard img={ParmegianaCarne} titulo="Parmegiana de Carne" descricao="Delicioso bife empanado e frito servido com molho de tomate artesanal e muçarela, acompanha arroz e batata frita. Peso médio da porção, 500g." preco="36,90" />
